@@ -1,0 +1,2335 @@
+Started GET "/" for 127.0.0.1 at 2019-05-29 08:51:33 +0000
+  
+Mysql2::Error (Access denied for user 'root'@'localhost'):
+  
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `connect'
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:761:in `new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:805:in `checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:784:in `try_to_checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:745:in `acquire_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:502:in `checkout'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:376:in `connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/lint.rb:49:in `_call'
+rack (2.0.7) lib/rack/lint.rb:37:in `call'
+rack (2.0.7) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.7) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.7) lib/rack/chunked.rb:54:in `call'
+rack (2.0.7) lib/rack/content_length.rb:15:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/info" for 127.0.0.1 at 2019-05-29 08:51:55 +0000
+  
+Mysql2::Error (Access denied for user 'root'@'localhost'):
+  
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `connect'
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:761:in `new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:805:in `checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:784:in `try_to_checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:745:in `acquire_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:502:in `checkout'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:376:in `connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/lint.rb:49:in `_call'
+rack (2.0.7) lib/rack/lint.rb:37:in `call'
+rack (2.0.7) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.7) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.7) lib/rack/chunked.rb:54:in `call'
+rack (2.0.7) lib/rack/content_length.rb:15:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/info" for 127.0.0.1 at 2019-05-29 08:53:51 +0000
+  
+Mysql2::Error (Access denied for user 'root'@'localhost'):
+  
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `connect'
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:761:in `new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:805:in `checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:784:in `try_to_checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:745:in `acquire_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:502:in `checkout'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:376:in `connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+jets-rails (0.2.0) lib/jets_rails/stage_middleware.rb:9:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/lint.rb:49:in `_call'
+rack (2.0.7) lib/rack/lint.rb:37:in `call'
+rack (2.0.7) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.7) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.7) lib/rack/chunked.rb:54:in `call'
+rack (2.0.7) lib/rack/content_length.rb:15:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/info" for 127.0.0.1 at 2019-05-29 08:54:00 +0000
+  
+Mysql2::Error (Access denied for user 'root'@'localhost'):
+  
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `connect'
+mysql2 (0.5.2) lib/mysql2/client.rb:90:in `initialize'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+activerecord (5.1.7) lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:761:in `new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:805:in `checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:784:in `try_to_checkout_new_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:745:in `acquire_connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:502:in `checkout'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:376:in `connection'
+activerecord (5.1.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:933:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.7) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+jets-rails (0.2.0) lib/jets_rails/stage_middleware.rb:9:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/lint.rb:49:in `_call'
+rack (2.0.7) lib/rack/lint.rb:37:in `call'
+rack (2.0.7) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.7) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.7) lib/rack/chunked.rb:54:in `call'
+rack (2.0.7) lib/rack/content_length.rb:15:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT GET_LOCK('4665045258403983075', 0)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateBooks (20181104171742)
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE `books` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181104171742')[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('4665045258403983075')[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (49.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS `demo_development`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (4.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS `demo_test`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (16.7ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (16.3ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT GET_LOCK('4665045258403983075', 0)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateBooks (20181104171742)
+  [1m[35m (16.2ms)[0m  [1m[35mCREATE TABLE `books` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20181104171742')[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2019-05-29 09:49:03', '2019-05-29 09:49:03')[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('4665045258403983075')[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/books" for 127.0.0.1 at 2019-05-30 02:43:15 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BooksController#index as */*
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.0ms)[0m  [1m[34mSELECT `books`.* FROM `books`[0m
+  Rendered books/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 292ms (Views: 270.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2019-05-30 02:43:29 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/posts"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+jets-rails (0.2.0) lib/jets_rails/stage_middleware.rb:9:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/lint.rb:49:in `_call'
+rack (2.0.7) lib/rack/lint.rb:37:in `call'
+rack (2.0.7) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.7) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.7) lib/rack/chunked.rb:54:in `call'
+rack (2.0.7) lib/rack/content_length.rb:15:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/posts/new" for 127.0.0.1 at 2019-05-30 02:45:13 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/posts/new"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+jets-rails (0.2.0) lib/jets_rails/stage_middleware.rb:9:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/lint.rb:49:in `_call'
+rack (2.0.7) lib/rack/lint.rb:37:in `call'
+rack (2.0.7) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.7) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.7) lib/rack/chunked.rb:54:in `call'
+rack (2.0.7) lib/rack/content_length.rb:15:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/books" for 127.0.0.1 at 2019-05-30 06:16:20 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BooksController#index as */*
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (1.2ms)[0m  [1m[34mSELECT `books`.* FROM `books`[0m
+  Rendered books/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 302ms (Views: 287.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-30 06:21:33 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-30 06:22:08 +0000
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT GET_LOCK('4665045258403983075', 0)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUrls (20190530071008)
+  [1m[35m (14.3ms)[0m  [1m[35mCREATE TABLE `urls` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `original_url` varchar(255), `short_url_hash` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190530071008')[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('4665045258403983075')[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/books" for 127.0.0.1 at 2019-05-30 07:16:48 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by BooksController#index as */*
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.9ms)[0m  [1m[34mSELECT `books`.* FROM `books`[0m
+  Rendered books/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 245ms (Views: 229.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 07:16:54 +0000
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 60ms (Views: 53.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 07:25:51 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 191ms (Views: 179.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-30 08:31:07 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 08:31:14 +0000
+Processing by UrlsController#index as */*
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant HOST):
+  
+app/models/url.rb:3:in `<class:Url>'
+app/models/url.rb:1:in `<top (required)>'
+app/controllers/urls_controller.rb:7:in `index'
+Started GET "/urls/" for 127.0.0.1 at 2019-05-30 08:31:27 +0000
+Processing by UrlsController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant HOST):
+  
+app/models/url.rb:3:in `<class:Url>'
+app/models/url.rb:1:in `<top (required)>'
+app/controllers/urls_controller.rb:7:in `index'
+Started GET "/urls/32424e" for 127.0.0.1 at 2019-05-30 08:31:36 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"32424e"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant HOST):
+  
+app/models/url.rb:3:in `<class:Url>'
+app/models/url.rb:1:in `<top (required)>'
+app/controllers/urls_controller.rb:73:in `set_url'
+Started GET "/urls/32424e2343423" for 127.0.0.1 at 2019-05-30 08:32:21 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"32424e2343423"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant HOST):
+  
+app/models/url.rb:3:in `<class:Url>'
+app/models/url.rb:1:in `<top (required)>'
+app/controllers/urls_controller.rb:73:in `set_url'
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-30 08:55:13 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/urls/32424e2343423" for 127.0.0.1 at 2019-05-30 08:55:18 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"32424e2343423"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 32424 LIMIT 1[0m
+Completed 404 Not Found in 21ms (ActiveRecord: 3.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=32424e2343423):
+  
+app/controllers/urls_controller.rb:68:in `set_url'
+Started GET "/urls/" for 127.0.0.1 at 2019-05-30 08:55:26 +0000
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (97.5ms)
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `url_path' for #<#<Class:0x00007fe520bc16c0>:0x00007fe520bbb9c8>
+Did you mean?  url_options):
+    16:       <tr>
+    17:         <td><%= url.original_url %></td>
+    18:         <td><%= url.short_url_hash %></td>
+    19:         <td><%= link_to 'Show', url %></td>
+    20:         <td><%= link_to 'Edit', edit_url_path(url) %></td>
+    21:         <td><%= link_to 'Destroy', url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    22:       </tr>
+  
+app/views/urls/index.html.erb:19:in `block in _app_views_urls_index_html_erb__3850848588953085342_70311036719940'
+app/views/urls/index.html.erb:15:in `_app_views_urls_index_html_erb__3850848588953085342_70311036719940'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 08:55:31 +0000
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (94.9ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `url_path' for #<#<Class:0x00007fe520bc16c0>:0x00007fe520b75b58>
+Did you mean?  url_options):
+    16:       <tr>
+    17:         <td><%= url.original_url %></td>
+    18:         <td><%= url.short_url_hash %></td>
+    19:         <td><%= link_to 'Show', url %></td>
+    20:         <td><%= link_to 'Edit', edit_url_path(url) %></td>
+    21:         <td><%= link_to 'Destroy', url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    22:       </tr>
+  
+app/views/urls/index.html.erb:19:in `block in _app_views_urls_index_html_erb__3850848588953085342_70311036564660'
+app/views/urls/index.html.erb:15:in `_app_views_urls_index_html_erb__3850848588953085342_70311036564660'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 08:56:16 +0000
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (101.8ms)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 3.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `url_path' for #<#<Class:0x00007fe520a6ef48>:0x00007fe520a6d328>
+Did you mean?  url_options):
+    16:       <tr>
+    17:         <td><%= url.original_url %></td>
+    18:         <td><%= url.short_url_hash %></td>
+    19:         <td><%= link_to 'Show', url %></td>
+    20:         <td><%= link_to 'Edit', edit_url_path(url) %></td>
+    21:         <td><%= link_to 'Destroy', url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    22:       </tr>
+  
+app/views/urls/index.html.erb:19:in `block in _app_views_urls_index_html_erb__3850848588953085342_70311036026140'
+app/views/urls/index.html.erb:15:in `_app_views_urls_index_html_erb__3850848588953085342_70311036026140'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 08:56:39 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (99.5ms)
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 3.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `url_path' for #<#<Class:0x00007fe9948ecd00>:0x00007fe9948f6e68>
+Did you mean?  url_options):
+    16:       <tr>
+    17:         <td><%= url.original_url %></td>
+    18:         <td><%= url.short_url_hash %></td>
+    19:         <td><%= link_to 'Show', url %></td>
+    20:         <td><%= link_to 'Edit', edit_url_path(url) %></td>
+    21:         <td><%= link_to 'Destroy', url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    22:       </tr>
+  
+app/views/urls/index.html.erb:19:in `block in _app_views_urls_index_html_erb___1170892215555601209_70320598249120'
+app/views/urls/index.html.erb:15:in `_app_views_urls_index_html_erb___1170892215555601209_70320598249120'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 08:57:32 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (101.4ms)
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 3.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `url_path' for #<#<Class:0x00007f4f608f9998>:0x00007f4f60903308>
+Did you mean?  url_options):
+    16:       <tr>
+    17:         <td><%= url.original_url %></td>
+    18:         <td><%= url.short_url_hash %></td>
+    19:         <td><%= link_to 'Show', url %></td>
+    20:         <td><%= link_to 'Edit', edit_url_path(url) %></td>
+    21:         <td><%= link_to 'Destroy', url, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    22:       </tr>
+  
+app/views/urls/index.html.erb:19:in `block in _app_views_urls_index_html_erb___1508551330336714443_69989449585900'
+app/views/urls/index.html.erb:15:in `_app_views_urls_index_html_erb___1508551330336714443_69989449585900'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 08:57:47 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 267ms (Views: 261.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:04:26 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 146ms (Views: 133.9ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 09:04:33 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 2332 LIMIT 1[0m
+Completed 404 Not Found in 27ms (ActiveRecord: 1.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=2332rfrewrr):
+  
+app/controllers/urls_controller.rb:68:in `set_url'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:04:45 +0000
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 28ms (Views: 24.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:05:24 +0000
+Processing by UrlsController#index as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (can't quote Hash):
+  
+app/controllers/urls_controller.rb:8:in `index'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:05:41 +0000
+Processing by UrlsController#index as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (can't quote Hash):
+  
+app/controllers/urls_controller.rb:8:in `index'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:06:43 +0000
+Processing by UrlsController#index as */*
+  [1m[36mUrl Load (1.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` IS NULL LIMIT 1[0m
+  Rendering urls/index.html.erb within layouts/application
+  Rendered urls/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 2.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:   </thead>
+    13: 
+    14:   <tbody>
+    15:     <% @urls.each do |url| %>
+    16:       <tr>
+    17:         <td><%= url.original_url %></td>
+    18:         <td><%= url.short_url_hash %></td>
+  
+app/views/urls/index.html.erb:15:in `_app_views_urls_index_html_erb__3011943613778058053_69907544199940'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 09:08:54 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 1 LIMIT 1[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/urls/5" for 127.0.0.1 at 2019-05-30 09:09:00 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 5 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=5):
+  
+app/controllers/urls_controller.rb:70:in `set_url'
+Started GET "/urls/5" for 127.0.0.1 at 2019-05-30 09:12:24 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 5 LIMIT 1[0m
+Completed 404 Not Found in 13ms (ActiveRecord: 3.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=5):
+  
+app/controllers/urls_controller.rb:70:in `set_url'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:13:00 +0000
+Processing by UrlsController#index as */*
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` IS NULL LIMIT 1[0m
+  Rendering urls/index.html.erb within layouts/application
+  Rendered urls/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    12:   </thead>
+    13: 
+    14:   <tbody>
+    15:     <% @urls.each do |url| %>
+    16:       <tr>
+    17:         <td><%= url.original_url %></td>
+    18:         <td><%= url.short_url_hash %></td>
+  
+app/views/urls/index.html.erb:15:in `_app_views_urls_index_html_erb__2666241428399924643_70276778477140'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:13:15 +0000
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb within layouts/application
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+  Rendered urls/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 187ms (Views: 181.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:18:26 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#index as */*
+  Rendering urls/index.html.erb
+  [1m[36mUrl Load (1.0ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (1.1ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (1.2ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` LIMIT 11[0m
+  Rendered urls/index.html.erb (292.6ms)
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 14.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `notice' for #<#<Class:0x00007ff18c8643d8>:0x00007ff18c871718>):
+    1: <p id="notice"><%= notice %></p>
+    2: 
+    3: <h1>Urls</h1>
+    4: 
+  
+app/views/urls/index.html.erb:1:in `_app_views_urls_index_html_erb___2420159935906425766_70337710729780'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:20:14 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#index as */*
+No template found for UrlsController#index, rendering head :no_content
+Completed 204 No Content in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 09:20:22 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 1 LIMIT 1[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+Completed 200 OK in 45ms (Views: 0.9ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:20:25 +0000
+Processing by UrlsController#index as */*
+No template found for UrlsController#index, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/21" for 127.0.0.1 at 2019-05-30 09:20:27 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"21"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 21 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=21):
+  
+app/controllers/urls_controller.rb:70:in `set_url'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 09:24:02 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 1 LIMIT 1[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+Completed 200 OK in 12ms (Views: 0.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:24:06 +0000
+Processing by UrlsController#index as */*
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT `urls`.* FROM `urls`[0m
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/urls/3" for 127.0.0.1 at 2019-05-30 09:24:28 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 3 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=3):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/urls/3" for 127.0.0.1 at 2019-05-30 09:25:14 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 3 LIMIT 1[0m
+Completed 404 Not Found in 4ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=3):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/urls/3" for 127.0.0.1 at 2019-05-30 09:25:59 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 3 LIMIT 1[0m
+Completed 404 Not Found in 7ms (ActiveRecord: 3.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=3):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/urls/35" for 127.0.0.1 at 2019-05-30 09:26:03 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"35"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 35 LIMIT 1[0m
+Completed 404 Not Found in 8ms (ActiveRecord: 1.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=35):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/urls" for 127.0.0.1 at 2019-05-30 09:43:59 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/urls"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/lint.rb:49:in `_call'
+rack (2.0.7) lib/rack/lint.rb:37:in `call'
+rack (2.0.7) lib/rack/show_exceptions.rb:23:in `call'
+rack (2.0.7) lib/rack/common_logger.rb:33:in `call'
+rack (2.0.7) lib/rack/chunked.rb:54:in `call'
+rack (2.0.7) lib/rack/content_length.rb:15:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/urls/234" for 127.0.0.1 at 2019-05-30 09:44:12 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"234"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 234 LIMIT 1[0m
+Completed 404 Not Found in 50ms (ActiveRecord: 3.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=234):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 09:44:26 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 2332 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=2332rfrewrr):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-30 09:44:51 +0000
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 09:47:14 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 2332 LIMIT 1[0m
+Completed 404 Not Found in 7ms (ActiveRecord: 3.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=2332rfrewrr):
+  
+app/controllers/urls_controller.rb:72:in `set_url'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 09:47:40 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 2332 LIMIT 1[0m
+Completed 404 Not Found in 8ms (ActiveRecord: 3.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=2332rfrewrr):
+  
+app/controllers/urls_controller.rb:72:in `set_url'
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-30 09:47:46 +0000
+Started GET "/urls/2332rfrew" for 127.0.0.1 at 2019-05-30 09:47:52 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrew"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 2332 LIMIT 1[0m
+Completed 404 Not Found in 40ms (ActiveRecord: 1.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=2332rfrew):
+  
+app/controllers/urls_controller.rb:72:in `set_url'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 09:49:07 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = 2332 LIMIT 1[0m
+Completed 404 Not Found in 5ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'=2332rfrewrr):
+  
+app/controllers/urls_controller.rb:72:in `set_url'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 09:58:40 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (undefined method `required' for UrlsController:Class
+Did you mean?  require):
+  
+app/controllers/urls_controller.rb:4:in `<class:UrlsController>'
+app/controllers/urls_controller.rb:1:in `<top (required)>'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 09:59:37 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (5.3ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = NULL LIMIT 1[0m
+Completed 404 Not Found in 12ms (ActiveRecord: 7.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'={:short_url_hash=>"2332rfrewrr"}):
+  
+app/controllers/urls_controller.rb:72:in `set_url'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 10:00:28 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = NULL LIMIT 1[0m
+Completed 404 Not Found in 42ms (ActiveRecord: 1.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'={:short_url_hash=>"1"}):
+  
+app/controllers/urls_controller.rb:72:in `set_url'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 10:01:09 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = NULL LIMIT 1[0m
+Completed 404 Not Found in 5ms (ActiveRecord: 0.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'={:short_url_hash=>"1"}):
+  
+app/controllers/urls_controller.rb:72:in `set_url'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 10:02:11 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = NULL LIMIT 1[0m
+Completed 404 Not Found in 5ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'={:short_url_hash=>"1"}):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 10:02:17 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`id` = NULL LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Url with 'id'={:short_url_hash=>"1"}):
+  
+app/controllers/urls_controller.rb:71:in `set_url'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 10:03:10 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.9ms)
+
+
+  
+TypeError (can't quote Hash):
+  
+app/controllers/urls_controller.rb:15:in `show'
+Started GET "/urls/1" for 127.0.0.1 at 2019-05-30 10:03:48 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '1' LIMIT 1[0m
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:03:59 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:09:13 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 3.2ms)
+
+
+  
+NameError (undefined local variable or method `url' for #<UrlsController:0x00007fb58075a3b8>
+Did you mean?  @urls
+               URI):
+  
+app/controllers/urls_controller.rb:16:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:09:51 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:10:00 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:10:45 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/urls/2332rfrew" for 127.0.0.1 at 2019-05-30 10:10:49 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrew"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (5.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrew' LIMIT 1[0m
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 6.6ms)
+
+
+  
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:17:in `show'
+Started GET "/urls/2332rfrew" for 127.0.0.1 at 2019-05-30 10:12:00 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrew"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrew' LIMIT 1[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 2.6ms)
+
+
+  
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:17:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:12:09 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 44ms (Views: 0.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/urls/2332rfrew" for 127.0.0.1 at 2019-05-30 10:12:26 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrew"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrew' LIMIT 1[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:17:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:13:25 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_url=' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:15:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-30 10:14:45 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/urls/2332rfr" for 127.0.0.1 at 2019-05-30 10:14:59 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfr' LIMIT 1[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:18:in `show'
+Started GET "/urls/2332rfr" for 127.0.0.1 at 2019-05-31 01:48:08 +0000
+  [1m[35m (3.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfr' LIMIT 1[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.6ms)
+
+
+  
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:18:in `show'
+Started GET "/urls/2332rfr" for 127.0.0.1 at 2019-05-31 01:51:09 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfr"}
+  [1m[36mUrl Load (6.3ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfr' LIMIT 1[0m
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 7.1ms)
+
+
+  
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:18:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 01:51:35 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 49ms (Views: 0.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 01:58:18 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/urls/2332rfr" for 127.0.0.1 at 2019-05-31 01:58:35 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfr' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 01:59:49 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 3.2ms)
+
+
+  
+NoMethodError (undefined method `urls?' for #<UrlsController:0x00007fddd8752318>):
+  
+app/controllers/urls_controller.rb:16:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:00:07 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/2332rfr" for 127.0.0.1 at 2019-05-31 02:00:26 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfr' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfr" for 127.0.0.1 at 2019-05-31 02:00:33 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfr' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:04:05 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to 
+Completed 500 Internal Server Error in 9ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/urls_controller.rb:18:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:04:17 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:06:57 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.kaodim.com
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:07:32 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.kaodim.com
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:07:35 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (1.4ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.kaodim.com
+Completed 301 Moved Permanently in 6ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:08:34 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 3.3ms)
+
+
+  
+NoMethodError (undefined method `post_url' for #<UrlsController:0x00007fddd95bad60>
+Did you mean?  set_url):
+  
+app/controllers/urls_controller.rb:18:in `show'
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:18:32 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:19:34 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Completed 200 OK in 10ms (Views: 1.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:22:36 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:22:41 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 2.3ms)
+
+
+  
+NoMethodError (undefined method `post_url' for #<UrlsController:0x00007fddd8caf018>
+Did you mean?  set_url):
+  
+app/controllers/urls_controller.rb:18:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:22:58 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 13ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:23:02 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:23:14 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.7ms)
+
+
+  
+NoMethodError (undefined method `original_url' for nil:NilClass):
+  
+app/controllers/urls_controller.rb:16:in `show'
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:23:38 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:24:08 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Redirected to http://localhost:8080
+Completed 301 Moved Permanently in 5ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:24:22 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 11ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:25:05 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:25:08 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:25:30 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:25:34 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080/urls/2332rfrewrr?string=www.gawin.ph
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:26:54 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.6ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:31:28 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:31:34 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Redirected to http://localhost:8080
+Completed 301 Moved Permanently in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332" for 127.0.0.1 at 2019-05-31 02:33:12 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332' LIMIT 1[0m
+Redirected to http://localhost:8080
+Completed 301 Moved Permanently in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:33:15 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 8ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:40:02 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/urls_controller.rb:77:in `[]'
+app/controllers/urls_controller.rb:77:in `set_url'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:40:53 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `string' for #<UrlsController:0x00007fddd87a27c8>
+Did you mean?  String):
+  
+app/controllers/urls_controller.rb:77:in `set_url'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:41:24 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `required' for #<UrlsController:0x00007fddd8d0c6c8>
+Did you mean?  require):
+  
+app/controllers/urls_controller.rb:77:in `set_url'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:42:33 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:44:11 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 12ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:44:35 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `original_url' for "#<Url:0x00007fddd8daecc0>":String):
+  
+app/controllers/urls_controller.rb:16:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:46:03 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.9ms)
+
+
+  
+NameError (undefined local variable or method `url' for #<UrlsController:0x00007fdde4175038>
+Did you mean?  urls
+               URI):
+  
+app/controllers/urls_controller.rb:17:in `show'
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:46:20 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:47:01 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to https://www.gawin.com
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:47:09 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.com
+Completed 301 Moved Permanently in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:47:31 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 8ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 02:52:16 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/2332rf" for 127.0.0.1 at 2019-05-31 02:52:21 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rf"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rf' LIMIT 1[0m
+Redirected to http://localhost:8080
+Completed 301 Moved Permanently in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/12345" for 127.0.0.1 at 2019-05-31 02:52:27 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"12345"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '12345' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/12345" for 127.0.0.1 at 2019-05-31 02:58:52 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"12345"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '12345' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 13ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/urls/sfsdf" for 127.0.0.1 at 2019-05-31 02:59:08 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"sfsdf"}
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = 'sfsdf' LIMIT 1[0m
+Redirected to http://localhost:8888
+Completed 301 Moved Permanently in 37ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 03:01:20 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8888www.gawin.ph
+Completed 301 Moved Permanently in 2ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/urls/sfsdf" for 127.0.0.1 at 2019-05-31 03:01:39 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"sfsdf"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = 'sfsdf' LIMIT 1[0m
+Redirected to http://localhost:8888
+Completed 301 Moved Permanently in 2ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/12345" for 127.0.0.1 at 2019-05-31 03:01:49 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"12345"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '12345' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 2ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 03:01:59 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (1.0ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8888www.gawin.ph
+Completed 301 Moved Permanently in 2ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/2332rfrewrr" for 127.0.0.1 at 2019-05-31 03:06:42 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"2332rfrewrr"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '2332rfrewrr' LIMIT 1[0m
+Redirected to http://localhost:8080www.gawin.ph
+Completed 301 Moved Permanently in 12ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/urls/12345" for 127.0.0.1 at 2019-05-31 03:06:59 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"12345"}
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '12345' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 40ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/urls/12345" for 127.0.0.1 at 2019-05-31 03:22:21 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"12345"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '12345' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 15ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/urls/beres" for 127.0.0.1 at 2019-05-31 03:23:57 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"beres"}
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (1.0ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = 'beres' LIMIT 1[0m
+Redirected to https://www.beres.id
+Completed 301 Moved Permanently in 52ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/urls/gawin" for 127.0.0.1 at 2019-05-31 03:24:03 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"gawin"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = 'gawin' LIMIT 1[0m
+Redirected to https://www.kaodimcom
+Completed 301 Moved Permanently in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/urls/12345" for 127.0.0.1 at 2019-05-31 04:32:47 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.7) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.7) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT GET_LOCK('4665045258403983075', 0)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateApiV1ServicesUrls (20190531034941)
+  [1m[35m (29.8ms)[0m  [1m[35mCREATE TABLE `api_v1_services_urls` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190531034941')[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (9.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('4665045258403983075')[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT GET_LOCK('4665045258403983075', 0)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('4665045258403983075')[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/urls/12345" for 127.0.0.1 at 2019-05-31 04:35:04 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"12345"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '12345' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 13ms (ActiveRecord: 3.3ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:35:40 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.gawin.ph"}
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (3.5ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'testHash' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `short_url_hash`, `created_at`, `updated_at`) VALUES ('https://www.gawin.ph', 'testHash', '2019-05-31 04:35:40', '2019-05-31 04:35:40')[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 7.1ms)
+
+
+  
+NoMethodError (undefined method `url_url' for #<Api::V1::Services::UrlsController:0x00007f2218025a80>
+Did you mean?  url_for):
+  
+app/controllers/api/v1/services/urls_controller.rb:11:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:36:57 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.gawin.ph"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'testHash' LIMIT 1[0m
+  [1m[35m (5.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 27ms (Views: 0.2ms | ActiveRecord: 7.1ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:39:32 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.gawin.ph"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'testHash' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:39:54 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.beres.id"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'testHash' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:40:55 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'kaodimSG' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `short_url_hash`, `created_at`, `updated_at`) VALUES ('https://www.kaodim.sg', 'kaodimSG', '2019-05-31 04:40:55', '2019-05-31 04:40:55')[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 22ms (Views: 0.4ms | ActiveRecord: 6.9ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:41:10 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'kaodimSG' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:41:22 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'qweqddq' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `short_url_hash`, `created_at`, `updated_at`) VALUES ('https://www.kaodim.sg', 'qweqddq', '2019-05-31 04:41:22', '2019-05-31 04:41:22')[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 20ms (Views: 0.5ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:50:56 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` IS NULL LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `created_at`, `updated_at`) VALUES ('https://www.kaodim.sg', '2019-05-31 04:50:56', '2019-05-31 04:50:56')[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 17ms (Views: 0.2ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:51:48 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (5.6ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `short_url_hash`, `created_at`, `updated_at`) VALUES ('https://www.kaodim.sg', '234234', '2019-05-31 04:51:48', '2019-05-31 04:51:48')[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 21ms (Views: 0.2ms | ActiveRecord: 10.1ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:52:21 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.9ms)
+
+
+  
+NoMethodError (undefined method `message' for #<ActiveModel::Errors:0x00007f2224690a30>
+Did you mean?  messages):
+  
+app/controllers/api/v1/services/urls_controller.rb:14:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:52:39 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 15ms (Views: 0.2ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:53:18 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 2.0ms)
+
+
+  
+NoMethodError (undefined method `message' for #<ActiveModel::Errors:0x00007f221856dce0>
+Did you mean?  messages):
+  
+app/controllers/api/v1/services/urls_controller.rb:14:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:54:56 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:15: syntax error, unexpected keyword_end, expecting ']'
+    end
+    ^~~):
+  
+app/controllers/api/v1/services/urls_controller.rb:15: syntax error, unexpected keyword_end, expecting ']'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:55:11 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 16ms (Views: 0.3ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:56:04 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 16ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:56:15 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 2.0ms)
+
+
+  
+NoMethodError (undefined method `short_url_hash' for #<ActiveModel::Errors:0x00007f2218587140>):
+  
+app/controllers/api/v1/services/urls_controller.rb:14:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:56:26 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 2.0ms)
+
+
+  
+NoMethodError (undefined method `short_url_hash' for #<ActiveModel::Errors:0x00007f2224657488>):
+  
+app/controllers/api/v1/services/urls_controller.rb:14:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:56:55 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 87ms (ActiveRecord: 1.9ms)
+
+
+  
+NameError (undefined local variable or method `short_url_hash' for #<Api::V1::Services::UrlsController:0x0000561d96a52be8>
+Did you mean?  shortened_url):
+  
+app/controllers/api/v1/services/urls_controller.rb:14:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:57:18 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.9ms)
+
+
+  
+NoMethodError (undefined method `to_sym' for 1:Integer
+Did you mean?  to_s):
+  
+app/controllers/api/v1/services/urls_controller.rb:14:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:57:35 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 15ms (Views: 0.1ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:58:05 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 13ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:58:51 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 13ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 04:59:11 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '234234' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 13ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:26:40 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `original_url' for #<Api::V1::Services::UrlsController:0x00007f222466dd78>):
+  
+app/controllers/api/v1/services/urls_controller.rb:23:in `url'
+app/controllers/api/v1/services/urls_controller.rb:29:in `update_url'
+app/controllers/api/v1/services/urls_controller.rb:9:in `create'
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:28:47 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.kaodim.sg' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (2.3ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'kaodimSG' AND (`urls`.`id` != 5) LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 18ms (Views: 0.2ms | ActiveRecord: 6.8ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:29:18 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:31:33 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:31:48 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:10: syntax error, unexpected '}', expecting =>
+... render json: {url.new_record?}
+...                              ^
+/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/api/v1/services/urls_controller.rb:10: syntax error, unexpected '}', expecting =>
+app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:32:01 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:32:27 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:32:29 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/api/v1/services/urls_controller.rb:35: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:32:56 +0000
+  
+SyntaxError (/home/ubuntu/demo/rack/app/controllers/api/v1/services/urls_controller.rb:34: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/api/v1/services/urls_controller.rb:34: syntax error, unexpected end-of-input, expecting keyword_end
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:33:18 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.kaodim.sg' LIMIT 1[0m
+No template found for Api::V1::Services::UrlsController#create, rendering head :no_content
+Completed 204 No Content in 30ms (ActiveRecord: 3.5ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:34:16 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.kaodim.sg' LIMIT 1[0m
+No template found for Api::V1::Services::UrlsController#create, rendering head :no_content
+Completed 204 No Content in 26ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:37:16 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.kaodim.sg' LIMIT 1[0m
+No template found for Api::V1::Services::UrlsController#create, rendering head :no_content
+Completed 204 No Content in 26ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:37:54 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.kaodim.sg"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.kaodim.sg' LIMIT 1[0m
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:38:22 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.gawin.ph"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.gawin.ph' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:39:20 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.google.com"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.google.com' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '81f903722ba281a3' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `short_url_hash`, `created_at`, `updated_at`) VALUES ('https://www.google.com', '81f903722ba281a3', '2019-05-31 05:39:20', '2019-05-31 05:39:20')[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:40:10 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"www.google.com"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'www.google.com' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'f40aa77f473b82e5' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:41:20 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"www.google.com"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'www.google.com' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'eea4ece3ecf00fba' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:42:29 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"www.google.com"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'www.google.com' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'b7751f479016399f' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'b7751f479016399f' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 20ms (Views: 0.2ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:42:44 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.google.com"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.google.com' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '81f903722ba281a3' AND (`urls`.`id` != 9) LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 8ms (Views: 0.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-31 05:43:42 +0000
+Started GET "/urls/81f903722ba281a3" for 127.0.0.1 at 2019-05-31 05:43:54 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"81f903722ba281a3"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '81f903722ba281a3' LIMIT 1[0m
+Redirected to https://www.google.com
+Completed 301 Moved Permanently in 12ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/urls/81f903722ba281a3" for 127.0.0.1 at 2019-05-31 05:44:42 +0000
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"81f903722ba281a3"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '81f903722ba281a3' LIMIT 1[0m
+Redirected to https://www.google.com
+Completed 301 Moved Permanently in 12ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/urls/81f903722ba2" for 127.0.0.1 at 2019-05-31 05:44:45 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"81f903722ba2"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '81f903722ba2' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 8ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-31 05:44:57 +0000
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:45:29 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.facebook.com"}
+  [1m[36mUrl Load (0.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.facebook.com' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'd32d53c3f0352e79' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `short_url_hash`, `created_at`, `updated_at`) VALUES ('https://www.facebook.com', 'd32d53c3f0352e79', '2019-05-31 05:45:29', '2019-05-31 05:45:29')[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'd32d53c3f0352e79' AND (`urls`.`id` != 10) LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 13ms (Views: 0.2ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/urls/d32d53c3f0352e79" for 127.0.0.1 at 2019-05-31 05:45:42 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"d32d53c3f0352e79"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = 'd32d53c3f0352e79' LIMIT 1[0m
+Redirected to https://www.facebook.com
+Completed 301 Moved Permanently in 2ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:45:51 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.facebook.com"}
+  [1m[36mUrl Load (1.0ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.facebook.com' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY 'd32d53c3f0352e79' AND (`urls`.`id` != 10) LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 5ms (Views: 0.1ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 05:46:13 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"www.facebook.com"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'www.facebook.com' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '2817f0d9f58cb292' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '2817f0d9f58cb292' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms | ActiveRecord: 4.4ms)
+
+
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT GET_LOCK('4665045258403983075', 0)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('4665045258403983075')[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT GET_LOCK('7552485749105336235', 0)[0m
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUrls (20190530071008)
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE `urls` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `original_url` varchar(255), `short_url_hash` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('7552485749105336235')[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (47.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS `euler_development`[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS `euler_test`[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (18.7ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (16.5ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT GET_LOCK('7552485749105336235', 0)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUrls (20190530071008)
+  [1m[35m (19.0ms)[0m  [1m[35mCREATE TABLE `urls` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `original_url` varchar(255), `short_url_hash` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190530071008')[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2019-05-31 09:28:35', '2019-05-31 09:28:35')[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('7552485749105336235')[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-31 09:34:00 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started POST "/api/v1/services/urls" for 127.0.0.1 at 2019-05-31 09:34:09 +0000
+Processing by Api::V1::Services::UrlsController#create as */*
+  Parameters: {"url"=>"https://www.facebook.com"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (2.7ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`original_url` = 'https://www.facebook.com' LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '4e290f74dd8b306b' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `urls` (`original_url`, `short_url_hash`, `created_at`, `updated_at`) VALUES ('https://www.facebook.com', '4e290f74dd8b306b', '2019-05-31 09:34:09', '2019-05-31 09:34:09')[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUrl Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM `urls` WHERE `urls`.`short_url_hash` = BINARY '4e290f74dd8b306b' AND (`urls`.`id` != 1) LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 74ms (Views: 0.2ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/urls/d32d53c3f035" for 127.0.0.1 at 2019-05-31 09:34:25 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"d32d53c3f035"}
+  [1m[36mUrl Load (0.9ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = 'd32d53c3f035' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 8ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/urls/4e290f74dd8b306b" for 127.0.0.1 at 2019-05-31 09:34:35 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"4e290f74dd8b306b"}
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '4e290f74dd8b306b' LIMIT 1[0m
+Redirected to https://www.facebook.com
+Completed 301 Moved Permanently in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-31 09:37:54 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/heartbeat" for 127.0.0.1 at 2019-05-31 09:39:08 +0000
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/urls/4e290f74dd8b306b" for 127.0.0.1 at 2019-05-31 09:39:13 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"4e290f74dd8b306b"}
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (1.1ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = '4e290f74dd8b306b' LIMIT 1[0m
+Redirected to https://www.facebook.com
+Completed 301 Moved Permanently in 21ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/heartbeat" for 127.0.0.1 at 2019-06-10 04:04:38 +0000
+  [1m[35m (22.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/urls/d32d53c3f035" for 127.0.0.1 at 2019-06-10 04:06:37 +0000
+Processing by UrlsController#show as */*
+  Parameters: {"id"=>"d32d53c3f035"}
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mUrl Load (0.8ms)[0m  [1m[34mSELECT  `urls`.* FROM `urls` WHERE `urls`.`short_url_hash` = 'd32d53c3f035' LIMIT 1[0m
+Redirected to https://www.kaodim.com
+Completed 301 Moved Permanently in 51ms (ActiveRecord: 5.3ms)
+
+
