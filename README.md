@@ -41,7 +41,7 @@ Go back to top level
 	
 	jets server
 
-	jets deploy (after setting up AWS credentials through `aws configure`
+	jets deploy (after setting up AWS credentials through `aws configure`)
 
 Sample commands
 
