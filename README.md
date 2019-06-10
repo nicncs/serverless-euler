@@ -34,3 +34,23 @@ Prepare databases and migration
 Test locally to make sure rails app working as expected inside /rack folder first
 
 	bundle exec rails s
+
+Go back to top level 
+
+	jets server
+
+	jets deploy (after setting up AWS credentials through `aws configure`
+
+Sample commands
+
+	$ curl -X GET http://localhost:8080/heartbeat                           
+	{"message":"Euler is alive"}
+
+	$ curl --data "url=https://www.facebook.com" -X POST http://localhost:8080/api/v1/services/urls
+	{"shortened_url":"4e290f74dd8b306b"}
+
+	$ curl -X GET http://localhost:8080/urls/d32d53c3f035
+	<html><body>You are being <a href="https://www.kaodim.com">redirected</a>.</body></html>
+
+	$ curl -X GET http://localhost:8080/urls/4e290f74dd8b306b
+	<html><body>You are being <a href="https://www.facebook.com">redirected</a>.</body></html>
