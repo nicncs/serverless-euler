@@ -5,19 +5,19 @@ Proof of Concept for URL shortener running on API Gateway and Lambda
 Based on Jets framework - https://rubyonjets.com/docs/ and MegaMode - https://blog.boltops.com/2018/11/03/jets-mega-mode-run-rails-on-aws-lambda
 
 
-Setup
+Setup.  Install Jets on your workspace
 
 	gem install jets
 
-Change to Ruby 2.5.0 - AWS Lambda only supports this
+Change to Ruby 2.5.0 - AWS Lambda only supports this Ruby version
 
 	rvm use 2.5.0
 
 Create new api mode starter project
 
-	jets new euler-serverless --mode api
+	jets new serverless-euler --mode api
 
-	cd euler-serverless/
+	cd serverless-euler/
 
 Import Rails app into the project which will create a /rack folder
 
@@ -33,10 +33,12 @@ Prepare databases and migration
 
 Test locally to make sure rails app working as expected inside /rack folder first
 
-	bundle exec rails s
+	bundle exec rails s <--- on port 9292
 
 Go back to top level 
 
+	cd ..
+	
 	jets server
 
 	jets deploy (after setting up AWS credentials through `aws configure`
